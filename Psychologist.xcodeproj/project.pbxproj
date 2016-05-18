@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017105C71CEC531E00D1C7F5 /* TextUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017105C61CEC531E00D1C7F5 /* TextUIViewController.swift */; };
+		017105C91CEC56C400D1C7F5 /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017105C81CEC56C400D1C7F5 /* DiagnosedHappinessViewController.swift */; };
 		01FCA71B1CEC264D00BAB1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCA71A1CEC264D00BAB1C1 /* AppDelegate.swift */; };
-		01FCA71D1CEC264D00BAB1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCA71C1CEC264D00BAB1C1 /* ViewController.swift */; };
+		01FCA71D1CEC264D00BAB1C1 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCA71C1CEC264D00BAB1C1 /* PsychologistViewController.swift */; };
 		01FCA7201CEC264D00BAB1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FCA71E1CEC264D00BAB1C1 /* Main.storyboard */; };
 		01FCA7221CEC264D00BAB1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FCA7211CEC264D00BAB1C1 /* Assets.xcassets */; };
 		01FCA7251CEC264D00BAB1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FCA7231CEC264D00BAB1C1 /* LaunchScreen.storyboard */; };
+		01FCA72F1CEC2A3C00BAB1C1 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCA72D1CEC2A3C00BAB1C1 /* FaceView.swift */; };
+		01FCA7301CEC2A3C00BAB1C1 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FCA72E1CEC2A3C00BAB1C1 /* HappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017105C61CEC531E00D1C7F5 /* TextUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextUIViewController.swift; path = ../TextUIViewController.swift; sourceTree = "<group>"; };
+		017105C81CEC56C400D1C7F5 /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 		01FCA7171CEC264D00BAB1C1 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FCA71A1CEC264D00BAB1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01FCA71C1CEC264D00BAB1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01FCA71C1CEC264D00BAB1C1 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		01FCA71F1CEC264D00BAB1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01FCA7211CEC264D00BAB1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01FCA7241CEC264D00BAB1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01FCA7261CEC264D00BAB1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FCA72D1CEC2A3C00BAB1C1 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		01FCA72E1CEC2A3C00BAB1C1 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		01FCA7191CEC264D00BAB1C1 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
-				01FCA71A1CEC264D00BAB1C1 /* AppDelegate.swift */,
-				01FCA71C1CEC264D00BAB1C1 /* ViewController.swift */,
+				01FCA72D1CEC2A3C00BAB1C1 /* FaceView.swift */,
+				017105C61CEC531E00D1C7F5 /* TextUIViewController.swift */,
+				01FCA72E1CEC2A3C00BAB1C1 /* HappinessViewController.swift */,
+				01FCA71C1CEC264D00BAB1C1 /* PsychologistViewController.swift */,
+				017105C81CEC56C400D1C7F5 /* DiagnosedHappinessViewController.swift */,
 				01FCA71E1CEC264D00BAB1C1 /* Main.storyboard */,
+				01FCA72C1CEC266F00BAB1C1 /* SupportingFiles */,
+			);
+			path = Psychologist;
+			sourceTree = "<group>";
+		};
+		01FCA72C1CEC266F00BAB1C1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				01FCA71A1CEC264D00BAB1C1 /* AppDelegate.swift */,
 				01FCA7211CEC264D00BAB1C1 /* Assets.xcassets */,
 				01FCA7231CEC264D00BAB1C1 /* LaunchScreen.storyboard */,
 				01FCA7261CEC264D00BAB1C1 /* Info.plist */,
 			);
-			path = Psychologist;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FCA71D1CEC264D00BAB1C1 /* ViewController.swift in Sources */,
+				01FCA71D1CEC264D00BAB1C1 /* PsychologistViewController.swift in Sources */,
 				01FCA71B1CEC264D00BAB1C1 /* AppDelegate.swift in Sources */,
+				017105C71CEC531E00D1C7F5 /* TextUIViewController.swift in Sources */,
+				017105C91CEC56C400D1C7F5 /* DiagnosedHappinessViewController.swift in Sources */,
+				01FCA7301CEC2A3C00BAB1C1 /* HappinessViewController.swift in Sources */,
+				01FCA72F1CEC2A3C00BAB1C1 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				01FCA72B1CEC264D00BAB1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
